@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+
+<component name="StartPageComponent" extends="Group">
+  <children>
+    <Rectangle id="background" />
+    <ButtonComponent id="button" />
+  </children>
+  <script type="text/brightscript" uri="./StartPage.component.brs"/>
+  <script type="text/brightscript" uri="../utils/Types.brs" />
+</component>

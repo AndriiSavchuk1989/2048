@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+
+<component name="ButtonComponent" extends="Group">
+  <interface>
+    <function name="draw" />
+  </interface>
+  <children>
+    <Rectangle id="background">
+      <Label id="buttonText" />
+    </Rectangle>
+  </children>
+  
+  <script type="text/brightscript" uri="./Button.component.brs"/>
+</component>
