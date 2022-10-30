@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+
+<component name="GridComponent" extends="Group">
+  <interface>
+    <function name="setupGrid" />
+  </interface>
+  <children>
+    <Rectangle id="background" />
+    <Rectangle id="gridWrapper" />
+  </children>
+  <script type="text/brightscript" uri="./Grid.component.brs"/>
+  <script type="text/brightscript" uri="../utils/Types.brs" />
+</component>

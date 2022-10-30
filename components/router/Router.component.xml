@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+
+<component name="RouterComponent" extends="Group">
+  <interface>
+    <function name="navigateTo" />
+    <function name="cleanUp" />
+  </interface>
+  <script type="text/brightscript" uri="./Router.component.brs"/>
+  <script type="text/brightscript" uri="../utils/Types.brs" />
+</component>

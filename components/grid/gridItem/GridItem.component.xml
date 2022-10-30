@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+
+<component name="GridItemComponent" extends="Group">
+  <interface>
+    <function name="draw" />
+    <function name="getValue" />
+    <function name="getCoords" />
+    <function name="getIndexes" />
+    <function name="getEmptyStatus" />
+    <function name="setEmptyStatus" />
+    <function name="setIndexes" />
+  </interface>
+  <children>
+    <Rectangle id="background">
+      <Label id="cellLabel" />
+    </Rectangle>
+  </children>
+  <script type="text/brightscript" uri="./GridItem.component.brs"/>
+  <script type="text/brightscript" uri="../../utils/Types.brs" />
+</component>
