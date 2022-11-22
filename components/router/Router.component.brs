@@ -9,7 +9,6 @@ sub navigateTo(gamePath as dynamic) as dynamic
 end sub
 
 sub getGameScreen(path as string) as dynamic
-  ? "path "; path
   cleanUp()
   if path = "2048" then
     m.screen = CreateObject("roSGNode", "GridComponent")
