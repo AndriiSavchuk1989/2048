@@ -2,7 +2,11 @@
 
 <component name="GridItemComponent" extends="Group">
   <interface>
+    <field id="isActive" type="boolean" alwaysNotify="true" />
+    <field id="isUpdated" type="boolean" alwaysNotify="true" />
+    <field id="newCoords" type="assocarray" alwaysNotify="true"/>
     <function name="draw" />
+    <function name="updateValue" />
     <function name="getValue" />
     <function name="getCoords" />
     <function name="getIndexes" />
