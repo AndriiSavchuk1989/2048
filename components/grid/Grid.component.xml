@@ -2,6 +2,8 @@
 
 <component name="GridComponent" extends="Group">
   <interface>
+    <field id="updateGameCells" type="boolean" alwaysNotify="true"/>
+    <field id="proceed" type="boolean" alwaysNotify="true"/>
     <function name="setupGrid" />
   </interface>
   <children>
